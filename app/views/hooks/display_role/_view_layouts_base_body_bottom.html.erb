@@ -1,2 +1,4 @@
 <%= javascript_include_tag 'display_role.js', :plugin => 'display_role' %>
-<script>insert_role_on_top('Developer')</script>
+<script>
+insert_role_on_top('<%= User.current.roles_for_project(@project).collect {|item| item.name}.join(',') %>');
+</script>
