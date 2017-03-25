@@ -1,4 +1,4 @@
-<%= javascript_include_tag 'display_role.js', :plugin => 'display_role' %>
+<%= javascript_include_tag 'redmine_plugin_display_role.js', :plugin => 'redmine_plugin_display_role' %>
 <script>
 insert_role_on_top('<%= User.current.roles_for_project(@project).collect {|item| item.name}.join(',') %>');
 </script>

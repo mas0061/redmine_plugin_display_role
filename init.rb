@@ -1,7 +1,7 @@
 require 'redmine'
-require_dependency 'display_role/hooks'
+require_dependency 'redmine_plugin_display_role/hooks'
 
-Redmine::Plugin.register :display_role do
+Redmine::Plugin.register :redmine_plugin_display_role do
   name 'Display Role plugin'
   author 'mas0061'
   description 'This plugin display current Role on Redmine.'
