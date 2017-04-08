@@ -1,4 +1,7 @@
 # Redmine Display role plugin
+
+[![Rate at redmine.org](http://img.shields.io/badge/rate%20at-redmine.org-blue.svg?style=flat)](http://www.redmine.org/plugins/redmine_plugin_display_role)
+
 This plugin is a Redmine plugin that displays the roles on the project.
 
 ## Installation
