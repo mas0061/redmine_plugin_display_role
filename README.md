@@ -5,7 +5,7 @@
 This plugin is a Redmine plugin that displays the roles on the project.
 
 ## Installation
-1. Insall plugin
+1. Install plugin
   ```sh
   $ cd $REDMINE_ROOT/plugins
   $ git clone https://github.com/mas0061/redmine_plugin_display_role.git
